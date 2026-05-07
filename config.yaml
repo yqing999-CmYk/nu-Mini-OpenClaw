@@ -1,0 +1,27 @@
+llm:
+  provider: openai
+  model: gpt-4o
+  temperature: 0.7
+  max_tokens: 4096
+
+context:
+  strategy: summarize
+  max_tokens: 32000
+  summarize_threshold: 24000
+
+workspace:
+  path: ./workspace
+
+skills:
+  registry_url: ""
+
+logging:
+  enabled: true
+  dir: ./logs
+
+scheduler:
+  store: ./schedules.json
+
+telegram:
+  enabled: false
+  allowed_ids: []
