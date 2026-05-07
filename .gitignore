@@ -1,0 +1,13 @@
+.env
+logs/
+workspace/
+__pycache__/
+*.pyc
+*.pyo
+.cli_history
+schedules.json
+skills/installed/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
